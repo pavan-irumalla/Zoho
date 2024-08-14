@@ -38,6 +38,7 @@
 
 .button-eng{
     margin-top: 6px;
+    min-width: fit-content;
 }
 .button-sign{
     margin: 6px 0 0 15px;
@@ -48,6 +49,16 @@
     background-size: cover;
     height: 100vh;
 }
+.adjst{
+    display: flex;
+    padding-top: 10px;
+}
 .logo-2{
     max-width: 100px;
+}
+
+.btn-danger{
+    min-width: fit-content;
+    border-radius: 50px;
+    
 }
