@@ -1,15 +1,53 @@
 *{
     margin: 0;
     padding: 0;
+    width: 100%;
+    
 }
-.button{
+
+.hd-img {
+    max-width: 100px;
+    margin-left: 20px;
+}
+
+.button {
     display: flex;
     padding: 0;
-    margin: 0;
+    margin-top: 6px;
     list-style: none;
-    gap: 10px;
-    text-decoration:none ;
+    
+   
 }
-.hd-img {
+
+.anchor-1, .anchor-2, .anchor-3, .anchor-4, .anchor-5, .anchor-6{
+    text-decoration: none;
+    color: black;
+}
+
+.anchor-1{
+    margin-left: 20px;
+}
+
+.dropdown{
+    width: 120px;
+}
+
+.fa{
+    margin: 10px 0 0 60px;
+}
+
+.button-eng{
+    margin-top: 6px;
+}
+.button-sign{
+    margin: 6px 0 0 15px;
+    color: red;
+}
+.sec-2{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.logo-2{
     max-width: 100px;
 }
