@@ -1,11 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    
-}
 
-.hd-img {
+
+.logo-1 {
     max-width: 100px;
     margin-left: 20px;
 }
@@ -28,14 +23,6 @@
     margin-left: 20px;
 }
 
-.dropdown{
-    width: 120px;
-}
-
-.fa{
-    margin: 10px 0 0 60px;
-}
-
 .button-eng{
     margin-top: 6px;
     min-width: fit-content;
@@ -44,10 +31,11 @@
     margin: 6px 0 0 15px;
     color: red;
 }
-.sec-2{
+.bg-img {
     background-image: url(background.jpg);
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
 }
 .adjst{
     display: flex;
