@@ -9,13 +9,15 @@
     background-image: url(background.jpg);
     background-size: cover;
     background-attachment: fixed;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
 
 .logo-2{
     max-width: 100px;
 }
 
-input{
+.inp-1, .inp-2, .inp-3, .inp-4{
     width: 75%;
     padding: 14px 12px 14px 20px;
     margin-top: 10px;
@@ -24,4 +26,14 @@ input{
 
 .ind-hdng{
     margin:3px;
+    font-size: 12px;
+}
+.checkbox-lg .custom-check-input {
+    top: 0.8rem;
+    scale: 1.4;
+    margin-right: 0.5rem;
+}
+
+.checkbox-lg .custom-check-label {
+    padding-top: 13px;
 }
