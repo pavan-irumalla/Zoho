@@ -37,3 +37,15 @@
 .checkbox-lg .custom-check-label {
     padding-top: 13px;
 }
+
+.slider-1{
+    flex: 1;
+}
+.slider-2{
+    flex: 1;
+    background-image: url(downloaded-1.jpg);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    
+}
